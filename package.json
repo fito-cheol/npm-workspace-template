@@ -1,0 +1,23 @@
+{
+  "name": "npm-workspace-template",
+  "version": "1.0.0",
+  "scripts": {
+    "start:b": "npm run start --workspace=b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fito-cheol/npm-workspace-template.git"
+  },
+  "author": "aufe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fito-cheol/npm-workspace-template/issues"
+  },
+  "homepage": "https://github.com/fito-cheol/npm-workspace-template#readme",
+  "private": true,
+  "workspaces": [
+    "packages/a",
+    "packages/b"
+  ]
+}
